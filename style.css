@@ -1,0 +1,73 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px;
+    padding: 0;
+    background:gray;
+    background-repeat: no-repeat;
+    background-size: medium;
+}
+
+.h1, .p {
+    text-align: center;
+    color:white;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: black;
+    box-shadow: 0 4px 8px whitesmoke;
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+legend {
+    font-weight: medium;
+    color: whitesmoke;
+}
+label {
+    font-weight: bold;
+    color: white;
+    font-size: medium;
+}
+
+input, textarea {
+    width: calc(78% - 10px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px goldenrod;
+    box-sizing: border-box;
+    background-color: goldenrod;
+    color:white;
+}
+
+button {
+    display: block;
+    padding: 10px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color:goldenrod;
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:goldenrod;
+    color: black;
+    box-shadow: 0 4px 8px whitesmoke;
+}
